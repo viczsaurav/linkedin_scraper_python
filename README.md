@@ -1,10 +1,13 @@
 Steps for setup:
 
+
+
 One-Time-Setup:
-1) Check your Chrome version => Chrome > (three dots) > Help > About Google Chrome
-2) Download Chromedriver for matching Chrome version from [following link|https://chromedriver.storage.googleapis.com/index.html]
-3) On MacOS => Ctrl+Click > Open webdriver to add an exception to security rules(to be able to launch it)
-4) Copy Chrome Webdriver to code folder
+1) Install linkedin-scraper => `pip3 install --user linkedin_scraper`
+2) Check your Chrome version => Chrome > (three dots) > Help > About Google Chrome
+3) Download Chromedriver for matching Chrome version from [following link|https://chromedriver.storage.googleapis.com/index.html]
+4) On MacOS => Ctrl+Click > Open webdriver to add an exception to security rules(to be able to launch it)
+5) Copy Chrome Webdriver to code folder
 
 Each-time-setup:
 1) Export following env variables in terminal:
